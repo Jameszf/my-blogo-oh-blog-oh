@@ -1,0 +1,11 @@
+{{ define "head" }}
+{{ $style := resources.Get "single.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+{{ end }}
+
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</main> 
+{{ end }}

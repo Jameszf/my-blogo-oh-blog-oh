@@ -1,0 +1,14 @@
+{{ define "head" }}
+{{ $style := resources.Get "style.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+{{ $js := resources.Get "main.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
+
+{{ define "main" }}
+<main id="posts-main">
+{{ range where (where .Site.Pages "Section" "posts") "IsSection" false }}
+{{ .Render "summary" }}
+{{ end }}
+</main>
+{{ end }}

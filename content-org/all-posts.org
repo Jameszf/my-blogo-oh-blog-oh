@@ -1,0 +1,103 @@
+#+hugo_base_dir: ../
+#+hugo-auto-set-lastmod: t
+
+* DONE Something else                      :edmonton:river:building:
+CLOSED: [2022-08-16 Tue 22:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :thumbnail "edmonton.jpg"
+:END:
+Testing ox-hugo commands... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sem, auctor ut dui vel, viverra maximus nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam at congue dui. Nulla facilisi. Suspendisse potenti. Ut rhoncus ornare congue. Integer sit amet mattis sem. Vivamus auctor sapien sed quam ornare, sit amet luctus leo bibendum. Phasellus vel ligula non justo ultrices placerat pulvinar ut nunc. Ut dictum tellus quis turpis tincidunt vestibulum.
+
+Mauris facilisis enim eget odio suscipit, ac blandit tellus interdum. Donec ut finibus est, eget posuere turpis. In dictum magna at mauris varius euismod. Donec vehicula erat at ligula facilisis accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec malesuada lacinia viverra. Phasellus in felis malesuada, rutrum magna non, convallis metus.
+** Title of Post
+Something in the body...
+
+A list:
+ - asajsoeijaAs
+ - aajspeij
+ - ajsoiejpa
+ - jasoidjpa
+ - askdj
+   - alsk
+   - asdjoa
+ - aljsskj
+
+*Faces* =asd= ~asdjfao~ +asldkjf+ _asjdie_ /asd/ 
+
+** Other Title
+more content...
+
+#+begin_src emacs-lisp
+    (message "Hello")
+
+    (defun as(stuff)
+      execution...)
+#+end_src
+
+** as
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sem, auctor ut dui vel, viverra maximus nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam at congue dui. Nulla facilisi. Suspendisse potenti. Ut rhoncus ornare congue. Integer sit amet mattis sem. Vivamus auctor sapien sed quam ornare, sit amet luctus leo bibendum. Phasellus vel ligula non justo ultrices placerat pulvinar ut nunc. Ut dictum tellus quis turpis tincidunt vestibulum.
+
+*** aserqwerqwe
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sem, auctor ut dui vel, viverra maximus nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam at congue dui. Nulla facilisi. Suspendisse potenti. Ut rhoncus ornare congue. Integer sit amet mattis sem. Vivamus auctor sapien sed quam ornare, sit amet luctus leo bibendum. Phasellus vel ligula non justo ultrices placerat pulvinar ut nunc. Ut dictum tellus quis turpis tincidunt vestibulum.
+
+**** opqiweurpoi
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sem, auctor ut dui vel, viverra maximus nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam at congue dui. Nulla facilisi. Suspendisse potenti. Ut rhoncus ornare congue. Integer sit amet mattis sem. Vivamus auctor sapien sed quam ornare, sit amet luctus leo bibendum. Phasellus vel ligula non justo ultrices placerat pulvinar ut nunc. Ut dictum tellus quis turpis tincidunt vestibulum.
+
+
+
+* DONE More blog posts                               :space:
+CLOSED: [2022-08-17 Wed 20:46]
+:PROPERTIES:
+:EXPORT_FILE_NAME: more-blog-posts
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :thumbnail "spacex.jpg"
+:END:
+(Some change) I am testing my understanding of ox-hugo. I expect to see this post rendered on the website alongside "Something else" post. They should both have a comprehendable summary view. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sem, auctor ut dui vel, viverra maximus nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam at congue dui. Nulla facilisi. Suspendisse potenti. Ut rhoncus ornare congue. Integer sit amet mattis sem. Vivamus auctor sapien sed quam ornare, sit amet luctus leo bibendum. Phasellus vel ligula non justo ultrices placerat pulvinar ut nunc. Ut dictum tellus quis turpis tincidunt vestibulum.
+
+* DONE More Descriptive Title      :flowers:stuff:gardening:
+CLOSED: [2022-08-18 Thu 17:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: filler-1
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :thumbnail "flower.jpg"
+:END:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a feugiat odio. Cras egestas eleifend metus, id placerat diam molestie a. Proin ac interdum lacus, at tincidunt enim. In rhoncus turpis sed nulla commodo ultricies. Nam vitae dolor sodales diam vestibulum blandit tincidunt ut tortor. Praesent non vestibulum ex. Maecenas ipsum enim, dapibus eget ante in, molestie molestie nunc.
+
+Donec purus nibh, gravida a facilisis a, maximus sit amet lorem. Donec eget elit sit amet nisl semper varius quis et sapien. Vestibulum sollicitudin purus orci, et fermentum nulla imperdiet at. Etiam dignissim dui quam, sit amet condimentum libero malesuada cursus. Vestibulum quis dolor pharetra, elementum sapien vel, congue erat. Aliquam sapien ante, vestibulum id nisi nec, rutrum eleifend enim. Quisque ac tortor blandit, tempor dui scelerisque, facilisis leo.
+
+Aliquam nunc metus, euismod vitae aliquet eu, condimentum in erat. Nunc dapibus lacus tempus, porttitor enim a, dictum lorem. Etiam tortor erat, dictum vitae venenatis et, porta pharetra turpis. In sed dignissim tortor, sed tempus tellus. Nullam ultrices consequat consectetur. Sed posuere feugiat consequat. Vivamus aliquet magna ante, sed mattis tortor volutpat vel. Pellentesque quis enim ullamcorper, egestas ante ac, ullamcorper dui.
+
+Nulla congue justo eu felis pulvinar, vitae sollicitudin leo consectetur. Fusce rhoncus mollis enim, sit amet ullamcorper lorem eleifend ut. Morbi vehicula nisl lectus, non tristique lacus volutpat id. Curabitur imperdiet volutpat eros. Nullam euismod mi sit amet tincidunt blandit. Nullam iaculis vel quam non ultrices. Donec lobortis finibus diam, eu ornare lectus dignissim et. Ut commodo blandit sapien at malesuada. Aliquam pharetra quis lectus ornare molestie. Quisque at leo non erat molestie tempus rhoncus eget elit. Phasellus et facilisis urna, eu ultricies diam. Sed vel hendrerit ex. Nam efficitur felis ut turpis dapibus lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna ipsum, faucibus vitae orci ut, egestas vulputate neque. Aliquam erat volutpat. Nulla venenatis rutrum erat et viverra. Aenean quis tellus ut eros mattis venenatis. Maecenas volutpat posuere ipsum eu blandit. Nulla in tellus varius, pellentesque nibh vitae, laoreet erat. Vestibulum efficitur pharetra felis, vel dignissim tortor maximus ut. In leo turpis, tristique ac rhoncus vel, dignissim id dui. Vivamus vel lobortis dui. Mauris suscipit, nulla quis ornare dapibus, sapien ipsum dictum tellus, sed vehicula leo leo sed nulla.
+
+* DONE Lorem Ipsum dolor                 :flowers:cars:fast:
+CLOSED: [2022-08-18 Thu 17:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: filler-2
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :thumbnail "flower2.jpg"
+:END:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a feugiat odio. Cras egestas eleifend metus, id placerat diam molestie a. Proin ac interdum lacus, at tincidunt enim. In rhoncus turpis sed nulla commodo ultricies. Nam vitae dolor sodales diam vestibulum blandit tincidunt ut tortor. Praesent non vestibulum ex. Maecenas ipsum enim, dapibus eget ante in, molestie molestie nunc.
+
+Donec purus nibh, gravida a facilisis a, maximus sit amet lorem. Donec eget elit sit amet nisl semper varius quis et sapien. Vestibulum sollicitudin purus orci, et fermentum nulla imperdiet at. Etiam dignissim dui quam, sit amet condimentum libero malesuada cursus. Vestibulum quis dolor pharetra, elementum sapien vel, congue erat. Aliquam sapien ante, vestibulum id nisi nec, rutrum eleifend enim. Quisque ac tortor blandit, tempor dui scelerisque, facilisis leo.
+
+Aliquam nunc metus, euismod vitae aliquet eu, condimentum in erat. Nunc dapibus lacus tempus, porttitor enim a, dictum lorem. Etiam tortor erat, dictum vitae venenatis et, porta pharetra turpis. In sed dignissim tortor, sed tempus tellus. Nullam ultrices consequat consectetur. Sed posuere feugiat consequat. Vivamus aliquet magna ante, sed mattis tortor volutpat vel. Pellentesque quis enim ullamcorper, egestas ante ac, ullamcorper dui.
+
+Nulla congue justo eu felis pulvinar, vitae sollicitudin leo consectetur. Fusce rhoncus mollis enim, sit amet ullamcorper lorem eleifend ut. Morbi vehicula nisl lectus, non tristique lacus volutpat id. Curabitur imperdiet volutpat eros. Nullam euismod mi sit amet tincidunt blandit. Nullam iaculis vel quam non ultrices. Donec lobortis finibus diam, eu ornare lectus dignissim et. Ut commodo blandit sapien at malesuada. Aliquam pharetra quis lectus ornare molestie. Quisque at leo non erat molestie tempus rhoncus eget elit. Phasellus et facilisis urna, eu ultricies diam. Sed vel hendrerit ex. Nam efficitur felis ut turpis dapibus lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna ipsum, faucibus vitae orci ut, egestas vulputate neque. Aliquam erat volutpat. Nulla venenatis rutrum erat et viverra. Aenean quis tellus ut eros mattis venenatis. Maecenas volutpat posuere ipsum eu blandit. Nulla in tellus varius, pellentesque nibh vitae, laoreet erat. Vestibulum efficitur pharetra felis, vel dignissim tortor maximus ut. In leo turpis, tristique ac rhoncus vel, dignissim id dui. Vivamus vel lobortis dui. Mauris suscipit, nulla quis ornare dapibus, sapien ipsum dictum tellus, sed vehicula leo leo sed nulla.
+
+* DONE Flowers wow flowers :flowers:productivity:future:plans:
+CLOSED: [2022-08-18 Thu 17:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: filler-3
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :thumbnail "flower3.jpg"
+:END:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a feugiat odio. Cras egestas eleifend metus, id placerat diam molestie a. Proin ac interdum lacus, at tincidunt enim. In rhoncus turpis sed nulla commodo ultricies. Nam vitae dolor sodales diam vestibulum blandit tincidunt ut tortor. Praesent non vestibulum ex. Maecenas ipsum enim, dapibus eget ante in, molestie molestie nunc.
+
+Donec purus nibh, gravida a facilisis a, maximus sit amet lorem. Donec eget elit sit amet nisl semper varius quis et sapien. Vestibulum sollicitudin purus orci, et fermentum nulla imperdiet at. Etiam dignissim dui quam, sit amet condimentum libero malesuada cursus. Vestibulum quis dolor pharetra, elementum sapien vel, congue erat. Aliquam sapien ante, vestibulum id nisi nec, rutrum eleifend enim. Quisque ac tortor blandit, tempor dui scelerisque, facilisis leo.
+
+Aliquam nunc metus, euismod vitae aliquet eu, condimentum in erat. Nunc dapibus lacus tempus, porttitor enim a, dictum lorem. Etiam tortor erat, dictum vitae venenatis et, porta pharetra turpis. In sed dignissim tortor, sed tempus tellus. Nullam ultrices consequat consectetur. Sed posuere feugiat consequat. Vivamus aliquet magna ante, sed mattis tortor volutpat vel. Pellentesque quis enim ullamcorper, egestas ante ac, ullamcorper dui.
+
+Nulla congue justo eu felis pulvinar, vitae sollicitudin leo consectetur. Fusce rhoncus mollis enim, sit amet ullamcorper lorem eleifend ut. Morbi vehicula nisl lectus, non tristique lacus volutpat id. Curabitur imperdiet volutpat eros. Nullam euismod mi sit amet tincidunt blandit. Nullam iaculis vel quam non ultrices. Donec lobortis finibus diam, eu ornare lectus dignissim et. Ut commodo blandit sapien at malesuada. Aliquam pharetra quis lectus ornare molestie. Quisque at leo non erat molestie tempus rhoncus eget elit. Phasellus et facilisis urna, eu ultricies diam. Sed vel hendrerit ex. Nam efficitur felis ut turpis dapibus lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna ipsum, faucibus vitae orci ut, egestas vulputate neque. Aliquam erat volutpat. Nulla venenatis rutrum erat et viverra. Aenean quis tellus ut eros mattis venenatis. Maecenas volutpat posuere ipsum eu blandit. Nulla in tellus varius, pellentesque nibh vitae, laoreet erat. Vestibulum efficitur pharetra felis, vel dignissim tortor maximus ut. In leo turpis, tristique ac rhoncus vel, dignissim id dui. Vivamus vel lobortis dui. Mauris suscipit, nulla quis ornare dapibus, sapien ipsum dictum tellus, sed vehicula leo leo sed nulla.
