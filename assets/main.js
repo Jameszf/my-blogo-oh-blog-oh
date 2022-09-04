@@ -1,14 +1,17 @@
 
-window.onload = (e) => {
-    console.log("Hello World!")
 
-    const articles = document.getElementsByClassName("summary-article")
+window.onload = function() {
+    const summaryArticles = document.getElementsByClassName("summary-article")
+    const summaryContentDivs = document.getElementsByClassName("post_summary-div")
 
-    console.log(articles)
-
-    for (let article of articles) {
-	article.addEventListener("click", () => {
-	    window.location.href = article.id
+    for (let el of summaryArticles) {
+	el.addEventListener("click", function() {
+	    window.location.href = el.id
 	})
+    }
+
+    console.log(window.innerWidth)
+    if (window.innerWidth < 600) {
+	console.log("Small")
     }
 }
